@@ -1,5 +1,11 @@
 uk:
-  hello: "Hello world"
   welcome:
     title: StudDev
     description: "Хочеш поділитися своїм освітнім досвідом? Хочеш оновити свої знання? StutDev — портал обміну та обговорення джерел для вивчення програмування."
+  header:
+    menu:
+      news: Новини
+      study: Навчання
+      advise: Поради
+      other: Різне
+      about: Про проект
