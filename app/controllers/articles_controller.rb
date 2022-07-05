@@ -1,4 +1,4 @@
-class ArticlesController < ArticlesController
+class ArticlesController < ApplicationController
   def news
     render 'welcome/index'
   end

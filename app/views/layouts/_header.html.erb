@@ -6,11 +6,21 @@
       </a>
 
       <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="/news" class="nav-link px-2 link-secondary"><%= t('header.menu.news') %></a></li>
-        <li><a href="/study" class="nav-link px-2 link-dark"><%= t('header.menu.study') %></a></li>
-        <li><a href="/advise" class="nav-link px-2 link-dark"><%= t('header.menu.advise') %></a></li>
-        <li><a href="/other" class="nav-link px-2 link-dark"><%= t('header.menu.other') %></a></li>
-        <li><a href="/about" class="nav-link px-2 link-dark"><%= t('header.menu.about') %></a></li>
+        <li>
+          <%= link_to t('header.menu.news'), news_path, class: current_link_class(news_path) %>
+        </li>
+        <li>
+          <%= link_to t('header.menu.study'), study_path, class: current_link_class(study_path) %>
+        </li>
+        <li>
+          <%= link_to t('header.menu.advise'), advise_path, class: current_link_class(advise_path) %>
+        </li>
+        <li>
+          <%= link_to t('header.menu.other'), other_path, class: current_link_class(other_path) %>
+        </li>
+        <li>
+          <%= link_to t('header.menu.about'), about_path, class: current_link_class(about_path) %>
+        </li>
       </div>
     </div>
   </div>
